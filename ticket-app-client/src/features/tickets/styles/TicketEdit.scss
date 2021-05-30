@@ -1,0 +1,57 @@
+.ticket-edit-card {
+  width: 50vw;
+  min-height: 70vh;
+  min-width: 350px;
+  height: auto;
+
+  // mobile
+  @media only screen and (max-width: 767px) {
+    & {
+      width: 80vw;
+      min-height: 60vh;
+      height: auto;
+    }
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .priority-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100em;
+    color: black;
+  }
+
+  .hoverable:hover {
+    opacity: 0.6;
+  }
+
+  .read-panel {
+    width: 15px;
+    height: 15px;
+  }
+
+  .control-btn {
+    width: 40%;
+  }
+
+  .modal-backdrop {
+    background-color: rgba(100, 100, 100, 0.8);
+    width: 100vw;
+    height: 100vh;
+
+    .modal-dialog {
+      min-width: 35%;
+    }
+  }
+
+  .fa-trash-alt:hover {
+    color: #dc354693 !important;
+  }
+}

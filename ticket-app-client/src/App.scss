@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  .round-btn {
+    border-radius: 2em;
+    min-width: 100px;
+  }
+
+  button:focus,
+  button:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
